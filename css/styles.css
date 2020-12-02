@@ -17,6 +17,7 @@ body{
     background-color:rgb(27, 78, 218);
     border-radius: 0;
     border: 0;
+    margin-bottom: 0;
 }
 
 .nav-brand{
@@ -92,7 +93,10 @@ font-size: x-large;
 
 }
 
-.upper-part{
+.upper-part {
+    padding: 0;
+}
+/* .upper-part{
     height: 700px;
     width: 100%;
     margin-bottom: 15px;
@@ -101,9 +105,11 @@ font-size: x-large;
     
     background:url(../project_images/header-bg-img.png) no-repeat;
     background-position: center;
+    background-size: contain;
     margin-top: 0%;
 
 }
+*/
 
 /*.container{
     height: 700px;
@@ -160,6 +166,7 @@ h4{
     font-size: 1.2em;
     
     background:url(../project_images/footer-bg-img.png) no-repeat;
+    background-size: cover;
     background-position: center;
     color: lightgoldenrodyellow;
     border-top: 0;
