@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CGC Assistant</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen&family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+      <!-- jQuery -->
+      <script src="js/jquery-2.1.4.min.js"></script>
+      <script src="js/bootstrap.min.js"></script> 
+      <!-- <script src="js/script.js"></script> -->
+</head>
+<body>
+    <header>
+      <nav id="header-nav" class="navbar navbar-default">
+          <div class="container">
+              <div class="navbar-header">
+                 <div class="nav-brand">
+                 <h1><a href="index.html" id="page-name">CGC LANDRAN</a></h1>
+                 </div>
+                 <div class="btn">
+                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+                 <span class="sr-only">Toggle navigation</span>
+                 <span class="icon-bar"></span>
+                 <span class="icon-bar"></span>
+                 <span class="icon-bar"></span> 
+                 </button>
+                 </div>
+               </div>
+               <div id="collapsable-nav" class=" collapsable navbar-collapse collapse">
+                   <ul id="nav-list" class="nav navbar-nav navbar-right">
+                       <li>
+                           <a href="index.html" class="nav-button" id="active1" >Home</a>
+                       </li>
+                       <li>
+                        <a href="blog1.html" class="nav-button" id="active2" >Blog</a>
+                       </li>
+                       <li>
+                        <a href="about-us.html" class="nav-button" id="active4" >About Us</a>
+                       </li>
+                       <li>
+                        <a href="contact-us.html" class="nav-button" id="active5" >Contact Us</a>
+                       </li>
+                   </ul>
+               </div>    
+          </div> 
+      </nav> 
+    </header>
+    <div class="upper-part col-md-12 col-sm-12 col-xs-12"></div>
+    <div class="container">
+        <div class="row">
+            
+            <h2 class="text-center" id="heading1" >Welcome You All In The World Of CGC, Landran</h2>
+            <h2 class="text-center" id="heading2" >Wnat to know about me?</h2>
+            <h3 class="text-center" id="quote">Hey! I am your CGC Assistant. If you have any query regarding our college, you can ask me. Whether it's about fee structure, hostel facility, programs offered or anything else regarding CGC, I'll try to answer it. Just click on the icon on the bottom left corner and you are ready to start.</h3><br>
+            <h3 class="text-center" id="important-point">For a Better exprience, Go to "Google Assistant" app  in your Tablet and Mobile and says " Talk to GGC Assistant " and CGC Assistant will be ready to help you in clearing your doubts.</h3>
+            
+        </div>
+    </div>
+    <footer class="panel-footer">
+        <div class="container">
+            <div class="row">
+                <section id="end-quote" class="col-xs-12">
+                    <p class="text-center">“ Building Careers, Transforming Lives ”</p><br><br>
+                    <hr class="visible-xs">
+                </section>
+            </div>
+            <div class="social-menu"><br>
+                <ul class="text-center">
+                    <li><a title="Instagram" href="https://www.instagram.com/cgc_landran_punjab/?hl=en"><i class="fa fa-instagram"></i></a></li>
+                    <li><a title="Facebook" href="https://www.facebook.com/CGCPunjab/"><i class="fa fa-facebook"></i></a></li>
+                    <li><a title="Twitter" href="https://twitter.com/cgcpunjab?lang=en"><i class="fa fa-twitter"></i></a></li>
+                </ul>
+            </div>
+           <br><br><hr class="visible-xs"><br><br>
+           <div class="text-center" id="copy">&copy;Copyright CGC Assistant 2020</div>
+        </div>
+    </footer>
+    <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+<df-messenger
+  intent="WELCOME"
+  chat-title="CGC-Bot"
+  agent-id="97668b13-0c9e-4c5f-a6a8-de080da8a2cf"
+  language-code="en"
+></df-messenger>
+</body> 
+</html>

@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+html,body{
+width: 100%;
+overflow-x: hidden;
+}
+body{
+    background-color:whitesmoke;
+    font-family: 'Oxygen', sans-serif;
+}
+
+
+#header-nav{
+    background-color:rgb(27, 78, 218);
+    border-radius: 0;
+    border: 0;
+}
+
+.nav-brand{
+    margin: 5px;
+    display: inline-block;
+}
+
+.btn{
+    display: inline;
+    padding: 0px 0px;
+}
+
+h1{
+    text-align: left;
+    font-size: 3vw;
+    margin: 0;
+    padding: 5px 0 5px 0;
+    font-weight: bold;
+    color:whitesmoke;
+}
+
+.navbar-toggle{
+background-color: whitesmoke;
+}
+
+.name , #nav-list{
+    margin-top:7px;
+    margin-bottom: 5px;
+}
+
+#nav-list a{
+    color: whitesmoke;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+#nav-list a:hover{
+    background-color: whitesmoke;
+    color: rgb(27, 78, 218);
+}
+
+
+
+#page-name{
+    text-decoration: none;
+    color: whitesmoke;
+}
+h2,h3,#end-quote{
+    font-family:Arial, Helvetica, sans-serif; 
+}
+#quote,#end-quote,#important-point{
+    font-family: cursive;
+}
+
+h4,.name{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#heading2{
+font-size: x-large;
+}
+
+#quote{
+    margin-top: 2%;
+    margin-bottom: 2%;
+
+}
+
+#important-point{
+    
+    margin-bottom: 2%;
+
+}
+
+.upper-part{
+    height: 700px;
+    width: 100%;
+    margin-bottom: 15px;
+    position: relative;
+    overflow: hidden;
+    
+    background:url(../project_images/header-bg-img.png) no-repeat;
+    background-position: center;
+    margin-top: 0%;
+
+}
+
+/*.container{
+    height: 700px;
+    width: 100%;
+    margin-bottom: 15px;
+    position: relative;
+    overflow: hidden;
+    
+}*/
+
+h4{
+    margin-right: 10px;
+}
+
+
+
+
+@media(max-width: 767px){
+   
+    .panel-footer section{ 
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .nav-brand{
+        margin: 8.5px;
+        display: inline-block;
+    }
+}
+
+@media(max-width:767px){
+    h1{
+        font-size: 6vw;
+    }
+
+    #quote{
+        margin: 10px 10px;
+    }
+
+    #heading1,#heading2{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .navbar-toggle{
+        margin-top: 10px;
+    }
+}
+
+.panel-footer{
+    margin-top: 30px;
+    padding-top: 35px;
+    padding-bottom: 30px;
+    font-size: 1.2em;
+    
+    background:url(../project_images/footer-bg-img.png) no-repeat;
+    background-position: center;
+    color: lightgoldenrodyellow;
+    border-top: 0;
+}
+
+#end-quote{
+    font-size: 1.4em;
+}
+
+.social-menu ul{
+position: absolute;
+left: 50%;
+padding: 0px;
+margin-top: 0px;
+text-align: center;
+transform: translate(-50%,-50%);
+display: flex;
+}
+
+.social-menu ul li{
+    list-style: none;
+    margin: 0 15px;
+}
+
+.social-menu ul li .fa{
+    font-size: 30px;
+    line-height: 60px;
+    transition: .6s;
+    color: #000;
+}
+
+.social-menu ul li .fa:hover{
+    color: #fff;
+} 
+
+.social-menu ul li a{
+    position: relative;
+    display: block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #fff;
+    text-align: center;
+    transition: .6s;
+    box-shadow: 0 5px 4 px rgba(0,0,0,.5);
+}
+
+.social-menu ul li a:hover{
+    transform: translate(0,-10px);
+}
+
+.social-menu ul li:nth-child(1) a:hover{
+    background-color:#e4405f;
+}
+
+.social-menu ul li:nth-child(2) a:hover{
+    background-color:#3b5999;
+}
+
+.social-menu ul li:nth-child(3) a:hover{
+    background-color:#55acee;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
